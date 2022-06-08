@@ -1,23 +1,38 @@
 .card-produto{
+   height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     box-shadow: 3px 3px 4px darkgray;
-    text-align: center;
+    text-align: inline;
     margin-bottom: 50px;
+    padding: 20px;
+    
 }
 .imagem-card{
-    width: 100%;
+    width: 200px;
+    height: 200px;
     
 }
 
 main{
     display: flex;
-    grid-template-columns: repeat(4, 1fr);
-    row-gap: 10px;
     column-gap: 10px;
     margin: 20px;
-    line-height: 15px;
+    line-height: 25px;
     overflow-x: auto;
+}
+
+main::-webkit-scrollbar{
+border: 1px solid #48453c;
+color: yellow;
+
+}
+
+main::-webkit-scrollbar-thumb{
+    background-color: #2e3237;
+}
+body{
+    background: #dae5e8;
 }
