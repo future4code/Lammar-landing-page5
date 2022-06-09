@@ -1,5 +1,5 @@
 .card-produto{
-   height: 250px;
+   height: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -11,8 +11,8 @@
     
 }
 .imagem-card{
-    width: 200px;
-    height: 200px;
+    width: 15rem;
+    height: 15rem;
     
 }
 
