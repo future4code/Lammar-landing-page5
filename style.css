@@ -41,12 +41,13 @@ body{
 
 /* pagina produtos */
 
-* {
-    margin: 0;
-    padding: 0;
-}
+
 body{
     background-color: #dae5e8;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
 }
 a {
     color: #dae5e8;
@@ -72,6 +73,85 @@ nav{
     display: flex;
 }
 .barra-nav li {
-    letter-spacing: 3px;
-    margin-left: 30px;
+    letter-spacing: 0.188rem;
+    margin-left: 1.875rem;
 } 
+
+.content{
+    height:45rem;
+    width: 62.5rem;
+    border-radius: 1.25rem;
+    overflow: hidden;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-60%, -60%);
+}
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 70px;
+    height: 17px;
+    border: 2px solid #2e3237;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .6s;
+}
+.bar:hover{
+    background-color: #48453c;
+}
+
+input{
+    display: none;
+}
+
+.slides{
+    display: flex;
+    width: 700%;
+    height: 100%;
+
+}
+
+.slide{
+    width: 20%;
+    transition: .6s;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+    }
+
+#slide2:checked ~.s1{
+    margin-left: -20%;
+}   
+
+#slide3:checked ~.s1{
+    margin-left: -40%;
+}    
+#slide4:checked ~.s1{
+    margin-left: -60%;
+}    
+#slide5:checked ~.s1{
+    margin-left: -80%;
+}    
+
+.texto-tenis1{
+    margin-top: 45%;
+    align-items: center;
+    font-size: 3rem;
+    margin-left: -40%;
+}
+.texto-tenis2{
+    display: flex;
+    margin-top: 30%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+}
