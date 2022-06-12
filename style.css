@@ -1,48 +1,42 @@
-/* produtos rolagem */
-
 .card-produto{
-   height: 20rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 3px 3px 4px darkgray;
-    text-align: inline;
-    margin-bottom: 50px;
-    padding: 20px;
-    
-}
-.imagem-card{
-    width: 15rem;
-    height: 15rem;
-    
-}
-
-main{
-    display: flex;
-    column-gap: 10px;
-    margin: 20px;
-    line-height: 25px;
-    overflow-x: auto;
-}
-
-main::-webkit-scrollbar{
-border: 1px solid #48453c;
-color: yellow;
-
-}
-
-main::-webkit-scrollbar-thumb{
-    background-color: #2e3237;
-}
-body{
-    background: #dae5e8;
-}
-
+    height: 20rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     box-shadow: 3px 3px 4px darkgray;
+     text-align: inline;
+     margin-bottom: 50px;
+     padding: 20px;
+     
+ }
+ .imagem-card{
+     width: 15rem;
+     height: 15rem;
+     
+ }
+ main{
+     display: flex;
+     column-gap: 10px;
+     margin: 20px;
+     line-height: 25px;
+     overflow-x: auto;
+ }
+ main::-webkit-scrollbar{
+ border: 1px solid #48453c;
+ color: yellow;
+ }
+ main::-webkit-scrollbar-thumb{
+     background-color: #2e3237;
+ }
+ body{
+     background: #dae5e8;
+ }
 /* pagina produtos */
 
 
-body{
+
+.body1{
     background-color: #dae5e8;
     margin: 0;
     padding: 0;
@@ -78,19 +72,19 @@ nav{
 } 
 
 .content{
-    height:45rem;
-    width: 62.5rem;
+    height:50rem;
+    width: 72.5rem;
     border-radius: 1.25rem;
     overflow: hidden;
     position: absolute;
-    top: 75%;
-    left: 50%;
+    top: 99%;
+    left: 65%;
     transform: translate(-60%, -60%);
 }
 .navigation{
     position: absolute;
     bottom: 20px;
-    left: 50%;
+    left: 40%;
     transform: translate(-50%);
     display: flex;
 }
@@ -143,15 +137,46 @@ input{
 }    
 
 .texto-tenis1{
-    margin-top: 45%;
-    align-items: center;
-    font-size: 3rem;
-    margin-left: -40%;
-}
-.texto-tenis2{
     display: flex;
-    margin-top: 30%;
+    margin-top: 36%;
     align-items: center;
     justify-content: center;
-    margin-left: 40%;
+    margin-left: 20%;
+    padding: 10px;
+}
+.texto-tenis2{
+    display: inline;
+text-align: center;
+font-size: 2rem;
+margin-left: 40%;
+}
+
+.img-tennis{
+    max-width: 110%;
+ max-height: 110%
+}
+
+.texto-tenis3{
+    display: flex;
+    margin-top: 60%;
+    font-size: 1rem;
+    margin-left: -95%;
+}
+
+footer.rodape-fixo{
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+    align-items: center;
+    background-color: #48453c; 
+    color: #dae5e8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-top: 0.063rem solid #333;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: end;
+}
+footer a{
+    margin: 0.2rem;
 }
