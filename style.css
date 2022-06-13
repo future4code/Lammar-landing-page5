@@ -138,17 +138,17 @@ input{
 
 .texto-tenis1{
     display: flex;
-    margin-top: 36%;
+    margin-top: 29%;
     align-items: center;
     justify-content: center;
     margin-left: 20%;
     padding: 10px;
 }
 .texto-tenis2{
-    display: inline;
-text-align: center;
-font-size: 2rem;
-margin-left: 40%;
+    display: flex;
+font-size: 3rem;
+margin-left: 20%;
+justify-content: start;
 }
 
 .img-tennis{
@@ -158,7 +158,7 @@ margin-left: 40%;
 
 .texto-tenis3{
     display: flex;
-    margin-top: 60%;
+    margin-top: 50%;
     font-size: 1rem;
     margin-left: -95%;
 }
