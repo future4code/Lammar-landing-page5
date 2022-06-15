@@ -19,9 +19,8 @@ a {
     color: #dae5e8;
     text-decoration: none;
 }
-a:hover {
-    opacity: 0.7;
-}
+
+
 .logo{
     display: flex;
     justify-content: center;
@@ -43,7 +42,7 @@ nav{
     margin-left: 30px;
 }
 
-main{
+.equipe{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 750px;
@@ -54,37 +53,39 @@ main{
     text-align: center;
 }
 .card-Gui{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     box-shadow: 2px 2px 5px darkgray;
     text-align: center;
 }
 .card-Mauricio{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+   
     box-shadow: 2px 2px 5px darkgray;
     text-align: center;
+    
 }
 .card-Lucas{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     box-shadow: 2px 2px 5px darkgray;
     text-align: center;
 }
 
-.gui-card{
+.card div{
+    margin-top: -140px;
+    color: white;
+    transition: 0.5s ease;
+    opacity: 0;
+}
+
+.card:hover div{
+    opacity: 1;
+    text-shadow: #333 2px 2px;
+}
+
+.gui-image{
     width: 100%;
 }
-.mauricio-card{
+.mauricio-image{
     width: 100%;
 }
-.lucas-card{
+.lucas-image{
     width: 100%;
 }
 

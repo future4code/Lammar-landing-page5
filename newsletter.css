@@ -17,3 +17,68 @@ body {
     align-items: center;
     background-color: #2e3237;
 }
+.box {
+    display: block;
+    width: 650px;
+    height: 500px;
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+.box > .row {
+    display: block;
+    padding: 10px;
+}
+
+.box .envelope{
+    width: 15%;
+    font-size: 4em ;
+    color: #607d8b;
+}
+
+.box .box-title{
+    font-size: 1.4em;
+    color: #333333;
+}
+.box .desc {
+    font-size: 0.9em;
+    color: #333333;
+}
+
+.box .fm-inp{
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border: 2px solid #919fa7;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.box .fm-inp:focus{
+    outline: none;
+    border-color: #263238;
+}
+
+.box .btn-enviar{
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 13px;
+    border-radius: 10px;
+    border: 2px solid #37474F;
+    background-color: #37474F;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.2em;
+    transition-duration: 0.3s;
+}
+
+.box .btn-enviar:hover{
+    color: #333333;
+    background-color: #FFFFFF;
+    transition-duration: 0.3s;
+
+
+}
