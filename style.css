@@ -30,8 +30,8 @@ nav{
     display: flex;
 }
 .barra-nav li {
-    letter-spacing: 0.188rem;
-    margin-left: 1.875rem;
+    letter-spacing: 0.188em;
+    margin-left: 1.875em;
 }
 footer.rodape-fixo{
     display: flex;
@@ -41,12 +41,25 @@ footer.rodape-fixo{
     background-color: #48453c; 
     color: #dae5e8;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-top: 0.063rem solid #333;
+    border-top: 0.063em solid #333;
     bottom: 0;
     left: 0;
     width: 100%;
     position: fixed;
 }
 footer a{
-    margin: 0.2rem;
+    margin: 0.2em;
+}
+main .slogan{
+    color: #ffffff;
+    text-shadow: #333 2px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.2em;
+    background-image: url(img/background-index.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 0;
 }
