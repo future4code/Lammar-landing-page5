@@ -17,18 +17,18 @@
      height: 15rem;
      
  }
- main{
+ .section-produto{
      display: flex;
      column-gap: 10px;
      margin: 20px;
      line-height: 25px;
      overflow-x: auto;
  }
- main::-webkit-scrollbar{
+ .section-produto::-webkit-scrollbar{
  border: 1px solid #48453c;
  color: yellow;
  }
- main::-webkit-scrollbar-thumb{
+ .section-produto::-webkit-scrollbar-thumb{
      background-color: #2e3237;
  }
  body{
@@ -39,12 +39,14 @@
 
 
 .body1{
-    background-color: #dae5e8;
+    background: #dae5e8;
+    display: grid;
     margin: 0;
     padding: 0;
-    height: 100vh;
-    width: 100vw;
+    min-height: 50vh;
+  
 }
+
 a {
     color: #dae5e8;
     text-decoration: none;
@@ -72,122 +74,63 @@ nav{
     letter-spacing: 0.188rem;
     margin-left: 1.875rem;
 } 
-
-.content{
-    height:50rem;
-    width: 72.5rem;
-    border-radius: 1.25rem;
-    overflow: hidden;
-    position: absolute;
-    top: 99%;
-    left: 65%;
-    transform: translate(-60%, -60%);
-}
-.navigation{
-    position: absolute;
-    bottom: 20px;
-    left: 40%;
-    transform: translate(-50%);
-    display: flex;
-}
-
-.bar{
-    width: 70px;
-    height: 17px;
-    border: 2px solid #2e3237;
-    margin: 6px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: .6s;
-}
-.bar:hover{
+.botao-comprar{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
     background-color: #48453c;
 }
 
-input{
-    display: none;
+.imagem-tenis{
+    display: grid;
+    width: 30%;
+    border: 3px solid #2e3237;
+   align-self: center;
+   margin-top: -9rem;
 }
-
-.slides{
+.botoes-tenis1{
     display: flex;
-    width: 700%;
-    height: 100%;
-
-}
-
-.slide{
-    width: 20%;
-    transition: .6s;
-}
-
-#slide1:checked ~ .s1 {
-    margin-left: 0;
-    }
-
-#slide2:checked ~.s1{
-    margin-left: -20%;
-}   
-
-#slide3:checked ~.s1{
-    margin-left: -40%;
-}    
-#slide4:checked ~.s1{
-    margin-left: -60%;
-}    
-#slide5:checked ~.s1{
-    margin-left: -80%;
-}    
-
-.texto-tenis1{
-    display: flex;
-    margin-top: 35%;
+    width: 30%;
     align-items: center;
-    justify-content: center;
-    margin-left: 35%;
-    padding: 10px;
-    border-radius: 20rem;
+   
 }
 .texto-tenis2{
     display: flex;
-font-size: 3rem;
-margin-left: 20%;
-}
-
-.img-tennis{
-    max-width: 110%;
- max-height: 110%
-}
-
-.texto-tenis3{
-    display: flex;
-    margin-top: 50%;
-    font-size: 1rem;
-    margin-left: -54.9%;
-    border: 1px solid black;
-}
-.comprar{
-    display: flex;
-    margin-top: 1120%;
     align-items: center;
+    margin-left: 40%
+}
+.area1{
+    display: grid;
+    
+}
+.texto{
+    display: grid;
+    font-size: 1rem;
+    margin-left: 40%
+}
+.texto-tenis1{
+    display: grid;
+    grid-row-start: 3;
     justify-content: center;
-    margin-left: -250%;
     padding: 10px;
 }
 
 footer.rodape-fixo{
     display: flex;
-    justify-content: center;
-    height: 8vh;
-    align-items: center;
     background-color: #48453c; 
     color: #dae5e8;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-top: 0.063rem solid #333;
-    bottom: 0;
+    border-top: 0.063em solid #333;
+    bottom: 0 ;
     left: 0;
     width: 100%;
-    position: end;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
 }
 footer a{
     margin: 0.2rem;
+    margin: 0.2em;
 }
