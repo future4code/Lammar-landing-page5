@@ -21,6 +21,7 @@
      
  }
 
+
  h1{
     font-size: 5rem;
     text-align: center;
@@ -93,10 +94,11 @@ main .slogan{
     align-items: center;
     letter-spacing: 0.2em;
     background-image: url(img/background-index.jpg);
-    height: 500px;
+    height: 34rem;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: 0;
+    font-size: 2rem;
 }
 .botao-comprar{
     display: grid;
