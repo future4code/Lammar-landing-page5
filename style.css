@@ -2,7 +2,6 @@
 @media screen and (min-device-width : 481px) and (max-device-width : 800px) {/*tablet*/} 
 @media screen and (min-device-width : 1200px){ /*computador*/} 
 
-
 .card-produto{
     margin-top: 3rem;
     height: 20rem;
