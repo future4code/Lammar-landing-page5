@@ -73,12 +73,16 @@ body {
     font-weight: 600;
     font-size: 1.2em;
     transition-duration: 0.3s;
+
+/* texto que aparece dentro da box */
 }
+
 
 .box .btn-enviar:hover{
     color: #333333;
     background-color: #FFFFFF;
     transition-duration: 0.3s;
 
+    /* efeito de transicao quando o mouse passa por cima das imagens */
 
 }
