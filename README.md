@@ -1,2 +1,2 @@
 # landing-page-template
- ```highfalutin-police.surge.sh```
+ ```accurate-cast.surge.sh```
