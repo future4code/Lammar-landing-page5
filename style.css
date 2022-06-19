@@ -61,6 +61,18 @@
 a {
     color: #dae5e8;
     text-decoration: none;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #dae5e8;
+}
+a {
+    color: #dae5e8;
+    text-decoration: none;
+    transition: 0.3s;
 }
 a:hover {
     opacity: 0.7;
@@ -76,6 +88,7 @@ nav{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #2e3237;
     height: 8vh;
+    height: 6vh;
 }
 .barra-nav{
     list-style: none;
@@ -182,6 +195,27 @@ nav{
     letter-spacing: 3px;
     margin-left: 30px;
 }
+
+    letter-spacing: 0.188em;
+    margin-left: 1.875em;
+}
+footer.rodape-fixo{
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+    align-items: center;
+    background-color: #48453c; 
+    color: #dae5e8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-top: 0.063em solid #333;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
+footer a{
+    margin: 0.2em;
+}
 main .slogan{
     color: #ffffff;
     text-shadow: #333 2px 2px;
@@ -190,6 +224,7 @@ main .slogan{
     align-items: center;
     letter-spacing: 0.2em;
     background-image: url(./img/background-index.jpg);
+    background-image: url(img/background-index.jpg);
     height: 500px;
     background-repeat: no-repeat;
     background-size: 100%;
